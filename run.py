@@ -181,7 +181,7 @@ if __name__ == "__main__":
         if args.output_npy_path is not None:
             np.save(output_npy_path / f"{image_fname.stem}.npy", output)
         if args.plt_vis:
-            plt.imshow(output)
+            plt.imshow(colorize(output))
             plt.show()
 
     image_path = Path(args.image_path)

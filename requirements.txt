@@ -1,8 +1,8 @@
 numpy==1.19.5
-pillow==8.3.2
 pyyaml==5.3.1
-torch==1.9.0
-torchvision==0.10.0
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.12.1+cu113
+torchvision==0.13.1+cu113
 pytorch_lightning==1.1.8
 einops==0.3.2
 matplotlib==3.3.4
@@ -13,3 +13,5 @@ scipy==1.5.4
 seaborn==0.11.2
 kornia==0.5.11
 timm==0.4.12
+opencv-python==4.6.0.66
+tqdm==4.61.2
