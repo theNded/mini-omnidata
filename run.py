@@ -97,8 +97,8 @@ class OmnidataModel:
 
         if h_net != h_raw or w_net != w_raw:
             resizer = Resize(
-                h_net,
                 w_net,
+                h_net,
                 resize_target=None,
                 keep_aspect_ratio=True,
                 ensure_multiple_of=self.patch_size,
